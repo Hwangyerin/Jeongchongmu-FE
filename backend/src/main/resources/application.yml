@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+kakao:
+  client-id: 00e99fc4aa1b941acfd5589a97340dce
+  redirect-uri: http://192.168.219.104:5173/oauth

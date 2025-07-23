@@ -1,0 +1,9 @@
+.Home{
+    height: 100%;
+    flex: 1;
+    padding: 2rem 1rem;
+}
+
+.Home h1 {
+    text-align: center;
+}
