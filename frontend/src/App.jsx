@@ -2,9 +2,7 @@ import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import './styles/fonts.css';
-import Login from './pages/Login';
-import Home from './pages/Home';
-import OAuthRedirect from './pages/OauthRedirect';
+import {Login, Home, OauthRedirect, Income, Expense} from './pages';
 
 function App() {
   useEffect(() => {
@@ -24,7 +22,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         {/* <Route path='/home' element={<Home />} /> */}
-        <Route path="/oauth" element={<OAuthRedirect />} />
+        <Route path="/oauth" element={<OauthRedirect />} />
+        <Route path="/Income" element={<Income />}/>
+        <Route path="/Expense" element={<Expense/>}/>
       </Routes>
     </div>
   );
