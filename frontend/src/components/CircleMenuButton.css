@@ -1,0 +1,22 @@
+
+@import '../styles/fonts.css';
+@import '../styles/variables.css';
+
+.CircleMenuButton {
+  background-color: transparent;
+  border: none;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  color: var(--color-neu-600)
+}
+
+.CircleMenuButton img {
+  background-color: var(--color-neu-200);
+  padding: 16px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.CircleMenuButton p {
+  margin: 0;
+}
