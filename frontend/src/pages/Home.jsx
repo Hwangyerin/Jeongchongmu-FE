@@ -1,5 +1,5 @@
 import './Home.css';
-import { Circle_Help, External_Link, File_Add, File_Edit, File_Remove } from '../assets/icon';
+import { Circle_Help, External_Link, File_Add, File_Edit, File_Remove } from '../assets/icons';
 import CircleMenuButton from '../components/CircleMenuButton';
 
 

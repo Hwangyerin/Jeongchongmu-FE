@@ -1,6 +1,5 @@
 import './Login.css';
-import logo from '../assets/logo.png';
-import calculate from '../assets/calculate.png';
+import {calculate, logo} from '../assets/images';
 import SocialKakao from '../components/SocialKakao';
 
 const Login = () => {
