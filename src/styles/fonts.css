@@ -1,0 +1,16 @@
+
+/* 온보딩 정총무 텍스트 폰트 */
+@font-face {
+    font-family: 'HakgyoansimRikodeo';
+    src: url('../assets/HakgyoansimRikodeo.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 카카오 로그인 텍스트 */
+@font-face {
+    font-family: 'KakaoSmallSans-Light';
+    src: url('../assets/KakaoSmallSans-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
