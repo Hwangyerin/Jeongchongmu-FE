@@ -1,4 +1,4 @@
-import kakao_symbol from '../assets/kakao_symbol.svg';
+import kakao_symbol from '../assets/svgs/kakao_symbol.svg';
 import './SocialKakao.css';
 import { useNavigate } from 'react-router-dom';
 
