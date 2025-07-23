@@ -1,10 +1,148 @@
 @import '../styles/variables.css';
 
-.Home{
-    height: 100%;
-    flex: 1;
-    padding: 2rem 1rem;
-    background-color: white;
-    color: var(--color-neu-700);
+*{
+  box-sizing: border-box;
 }
+.Home{
+  padding: 2rem 24px;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: var(--color-neu-100);
+  color: var(--color-neu-700);
+  font-family: 'Pretendard';
+}
+
+/* 홈 화면 헤더부분 */
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+/* 잔액, 버튼 박스 */
+.home-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 284px;
+  width: 100%;
+
+}
+
+
+/* 요약 섹션 */
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width:100%;
+  height: auto;
+  background-color: var(--color-blue-600);
+  color: var(--color-neu-200);
+  border-radius: 16px;
+  padding: 32px 24px;
+  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* 수입등록, 지출등록, 예산안, 내보내기 버튼 박스 */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+
+/* 홈 화면 헤더 텍스트 */
+.school-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* 홈 헤더 학교명 */
+.home-header h1 {
+    font-weight: 400;
+    font-size: clamp(10px, 3.2vw, 14px);;
+    color: var(--color-neu-500);
+    margin: 0;
+}
+
+/* 홈 헤더 학과명 */
+.home-header p {
+    font-weight: 700;
+    font-size: clamp(16px, 5.33vw, 24px);
+    color: var(--color-new-800);
+    margin: 0;
+    margin-top: 3px;
+
+}
+
+/* 도움말 버튼 */
+.help-button {
+  border: none;
+  background-color: transparent;
+}
+
+
+
+/* 잔액 */
+.summary-balance {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-balance h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.825rem;
+  line-height: 1.25rem;
+}
+
+.summary-balance p {
+  margin: 0;
+  font-size: 32px;
+  font-weight:600;
+  line-height: 48px;
+}
+
+/* n "원" */
+.summary-balance span {
+  font-size: 24px;
+  margin: 0;
+  margin-left: 2px;
+  font-weight: 100;
+}
+
+
+/* 수입, 지출 */
+.summary-income,
+.summary-expense {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:0;
+  height:auto;
+  font-weight: 500;
+}
+
+.summary-income h3, .summary-expense h3 {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.summary-income p, .summary-expense p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
 
