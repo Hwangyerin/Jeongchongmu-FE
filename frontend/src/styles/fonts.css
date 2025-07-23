@@ -1,16 +1,29 @@
 
 /* 온보딩 정총무 텍스트 폰트 */
 @font-face {
-    font-family: 'HakgyoansimRikodeo';
-    src: url('../assets/HakgyoansimRikodeo.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'HakgyoansimRikodeo';
+  src: url('../assets/fonts/HakgyoansimRikodeo.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* 카카오 로그인 텍스트 */
+/* Pretendard SemiBold */
 @font-face {
-    font-family: 'KakaoSmallSans-Light';
-    src: url('../assets/KakaoSmallSans-Light.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Pretendard';
+  src: url("../assets/fonts/Pretendard-SemiBold.woff2") format('woff2');
+  font-weight: 600;
+}
+
+/* Pretendard Medium */
+@font-face {
+  font-family: 'Pretendard';
+  src: url("../assets/fonts/Pretendard-Medium.woff2") format('woff2');
+  font-weight: 500;
+}
+
+/* Pretendard Bold */
+@font-face {
+  font-family: 'Pretendard';
+  src: url("../assets/fonts/Pretendard-Bold.woff2") format('woff2');
+  font-weight: 700;
 }

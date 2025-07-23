@@ -2,7 +2,13 @@
     --color-primary: #3b82f6; /* --color-blue-500과 동일 */
     --color-secondary: #2563eb; /* --color-blue-600과 동일 */
 
-    --color-neutral-white-50: #fafafa;
+    /* neutral */
+    --color-neu-50: #fafafa;
+    --color-neu-100: #F5F5F5;
+    --color-neu-500: #737373;
+    --color-neu-700: #404040;
+    --color-new-800: #262626;
+
 
     /* blue */
     --color-blue-50: #eff6ff;
