@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const SocialKakao = () => {
-  const Rest_api_key = '00e99fc4aa1b941acfd5589a97340dce';
+  const Rest_api_key = import.meta.env.VITE_KAKAO_REST_API_KEY;
   const redirect_uri = 'http://192.168.219.104:5173/oauth';
 
   const kakaoURL = `https://kauth.kakao.com/oauth/authorize?client_id=${Rest_api_key}&redirect_uri=${redirect_uri}&response_type=code`;
